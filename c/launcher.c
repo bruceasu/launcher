@@ -8,11 +8,11 @@ int APIENTRY WinMain(HINSTANCE hInstance,     //当前窗口实例句柄
                      int       nCmdShow       //窗口的显示方式                      
                      )
 
-/*int main(int argc, char** argv)*/
 {      
 	char buffer[MAXPATH];
     getcwd(buffer, MAXPATH);
     strcat(buffer, "\\bin\\launcher.bat");
+	//char buffer[] = "bin\\launcher.bat";
 	WinExec(buffer, SW_HIDE); // SW_HIDE, SW_SHOW
 
     return 0;  //函数返回值

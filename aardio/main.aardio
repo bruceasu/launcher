@@ -1,0 +1,10 @@
+//import console;
+//console.setTitle("Launcher");
+//console.log("io._exepath", io._exepath );
+//console.log("io._exedir", io._exedir + "bin\"+"launcher.bat");
+//console.log("io._exefile", io._exefile);
+
+import process
+process.execute(io._exedir + "bin\"+"launcher.bat", , ,0x0/*_SW_HIDE*/);
+
+//console.pause();

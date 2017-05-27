@@ -1,0 +1,3 @@
+#include "resource.h"
+// 图标
+IDI_APP_ICON ICON "tool.ico";
