@@ -26,7 +26,7 @@ $(NAME1).EXE: $(OBJS1)
 	upx -9 -o $(NAME1).exe $(NAME1)-orig.exe
 
 $(NAME2).EXE: $(OBJS2)
-	$(LINK) $(LINK_FLAG) /out:$(NAME2)-orig.exe $(OBJS1)
+	$(LINK) $(LINK_FLAG) /out:$(NAME2)-orig.exe $(OBJS2)
 	upx -9 -o $(NAME2).exe $(NAME2)-orig.exe
 
 .asm.obj:
